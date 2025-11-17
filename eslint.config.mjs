@@ -15,7 +15,7 @@ export default tsEslint.config(
   },
   {
     rules: {
-      quotes: ['error', 'single', { allowTemplateLiterals: false }],
+      quotes: 'off',
       'no-unused-vars': 'off',
       '@typescript-eslint/no-unused-vars': 'off',
       'unused-imports/no-unused-imports': 'error',
