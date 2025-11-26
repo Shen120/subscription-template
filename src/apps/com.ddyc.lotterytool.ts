@@ -59,6 +59,10 @@ export default defineGkdApp({
           key: 0,
           name: '分类详情页广告',
           fastQuery: true,
+          activityIds: [
+            'module.main.MainActivity',
+            'module.main.kj.OpenResultDetailActivity',
+          ],
           matches: [
             "[id='com.ddyc.lotterytool:id/iv_close']",
             "[id='com.ddyc.lotterytool:id/iv_close'][clickable=true]",
@@ -76,6 +80,10 @@ export default defineGkdApp({
           key: 0,
           name: '推荐流广告',
           fastQuery: true,
+          activityIds: [
+            'module.main.MainActivity',
+            'module.main.kj.OpenResultDetailActivity',
+          ],
           matches: [
             "[id='com.ddyc.lotterytool:id/iv_close']",
             "[id='com.ddyc.lotterytool:id/iv_close'][visibleToUser=true]",
